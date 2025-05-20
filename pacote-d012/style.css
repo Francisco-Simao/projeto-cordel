@@ -1,3 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html , main {
+    min-height: 100vh;
+
+}
+
 header {
     background-color: black;
     color: white;
@@ -7,3 +19,31 @@ header {
     text-align: center;
 }
 
+
+main {
+    font: 2em cursive;
+    line-height: ;
+    padding-left: 10px;
+
+}
+
+#pri_es {
+
+}
+
+#seg_es {
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    background: white url(imagens/background001.jpg) center right no-repeat  fixed  ;
+    background-size: cover;
+
+}
+
+/*  background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed  ;
+background-size: cover; */
+
+#qua_es {
+    background: white url(imagens/background002.jpg) center right no-repeat
+    fixed;
+    background-size: cover;
+}
