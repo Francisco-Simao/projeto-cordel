@@ -52,9 +52,6 @@ a:hover {
 
 main {
     font: 2em var(--fonte2);
-   
-    
-
 }
 
 section {
@@ -65,6 +62,10 @@ section {
     font-size: 3.5vw;
 }
 
+section.img1 {
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.648);
+}
+
 section.img1 > p {
     background-color: rgba(44, 44, 44, 0.678);
     display: inline-block;
@@ -72,15 +73,9 @@ section.img1 > p {
     padding: 5px;
 }
 
-#pri_es {
-
-}
-
-#seg_es {
-    
+#seg_es{
     background: white url(imagens/background001.jpg) center right no-repeat  fixed  ;
     background-size: cover;
-
 }
 
 /*  background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed  ;
@@ -95,8 +90,8 @@ background-size: cover; */
 footer {
     background-color: black;
     color: white;
-    text-align: center;
     font-family: var(--fonte1);
+    text-align: center;
 }
 
 
